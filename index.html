@@ -2,60 +2,31 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>프론트엔드 공부 로드맵</title>
+    <title>프론트엔드 공부용 </title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <h1>나를 위한 프론트엔드 공부법</h1>
-      <p>HTML, CSS, JavaScript부터 React까지 단계적으로 학습해요.</p>
-      <button id="toggleRoadmap" type="button" aria-expanded="true">로드맵 접기</button>
+    <header>
+      <h1>프론트엔드 공부용</h1>
+      <p>프론트엔드 공부를 위한 메모</p>
+      <p>Html Css JavaScript등의 코드와 쓰임세를 메모함</p>
     </header>
-
     <main>
-      <section>
-        <h2>학습 순서</h2>
-        <ol id="roadmap">
-          <li>
-            <h3>HTML</h3>
-            <p>시맨틱 태그, 폼, 접근성 기본을 익혀 문서 구조를 정확히 만들기</p>
-          </li>
-          <li>
-            <h3>CSS</h3>
-            <p>박스 모델, Flexbox, Grid, 반응형 레이아웃으로 화면 구성 능력 키우기</p>
-          </li>
-          <li>
-            <h3>JavaScript</h3>
-            <p>문법, DOM 제어, 이벤트 처리, 비동기 처리(fetch, async/await) 익히기</p>
-          </li>
-          <li>
-            <h3>React</h3>
-            <p>컴포넌트, 상태관리, 훅, 라우팅을 통해 SPA 구조 이해하기</p>
-          </li>
-        </ol>
-      </section>
-
-      <section>
-        <h2>주간 학습 루틴</h2>
-        <ul>
-          <li>월~수: 개념 학습 + 짧은 실습</li>
-          <li>목~금: 미니 프로젝트 구현</li>
-          <li>토: 복습 및 리팩터링</li>
-          <li>일: 회고 작성, 다음 주 목표 설정</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>오늘의 학습 체크</h2>
-        <label>
-          <input id="studyCheck" type="checkbox" />
-          오늘 30분 이상 공부했어요.
-        </label>
-        <p id="statusText" aria-live="polite">아직 체크하지 않았어요.</p>
-      </section>
+      <h2>각 프로그램의 코드 정리</h2>
+      <div class="codes">
+        <div id="html-code">
+          <h3>Html</h3>
+          <p>Html 코드</p>
+        </div>
+        <div id="Css-code">
+          <h3>Css</h3>
+          <p>Css 코드</p>
+        </div> 
+        <div id="JavaScript-code">
+          <h3>JavaScript</h3>
+          <p>JavaScript 코드</p>
+        </div>
+      </div>
     </main>
-
-    <script src="script.js"></script>
   </body>
 </html>
