@@ -6,6 +6,8 @@ const statusText = document.getElementById("statusText");
 if (toggleButton && roadmap) {
   toggleButton.addEventListener("click", () => {
     roadmap.classList.toggle("hidden");
+    const isExpanded = !roadmap.classList.contains("hidden");
+    toggleButton.setAttribute("aria-expanded", isExpanded ? "true" : "false");
     toggleButton.textContent = roadmap.classList.contains("hidden")
       ? "로드맵 펼치기"
       : "로드맵 접기";
