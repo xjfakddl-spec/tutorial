@@ -1,6 +1,6 @@
 const toggleButton = document.getElementById("toggleRoadmap");
 const roadmap = document.getElementById("roadmap");
-const check = document.querySelector(".study-check");
+const check = document.getElementById("studyCheck");
 const statusText = document.getElementById("statusText");
 
 if (toggleButton && roadmap) {
