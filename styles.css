@@ -56,7 +56,6 @@ aside {
   position: sticky;
   background-color: var(--bg-main-color);
   top: 0;
-  float: left;
   z-index: 1000;
   gap: 10px;
   width: 260px;
