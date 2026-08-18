@@ -22,13 +22,14 @@ header {
   display: flex;
 }
 aside {
-  position: sticky;
   background-color: var(--bg-main-color);
-  top: 0;
-  z-index: 1000;
-  gap: 10px;
   width: 360px;
   border: #ddd 1px solid;
+}
+nav {
+  position: sticky;
+  z-index: 1000;
+  gap: 10px;
 }
 main {
   background-color: var(--bg-main-color);
