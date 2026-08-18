@@ -30,6 +30,7 @@ nav {
   position: sticky;
   z-index: 1000;
   gap: 10px;
+  top: 10px;
 }
 main {
   background-color: var(--bg-main-color);
