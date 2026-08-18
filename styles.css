@@ -21,6 +21,15 @@ header {
 .layout {
   display: flex;
 }
+aside {
+  position: sticky;
+  background-color: var(--bg-main-color);
+  top: 0;
+  z-index: 1000;
+  gap: 10px;
+  width: 360px;
+  border: #ddd 1px solid;
+}
 main {
   background-color: var(--bg-main-color);
   padding: 20px;
@@ -52,16 +61,7 @@ th {
   background-color: var(--bg-sub-color);
   text-align: left;
 }
-aside {
-  position: sticky;
-  background-color: var(--bg-main-color);
-  top: 0;
-  z-index: 1000;
-  gap: 10px;
-  width: 260px;
-  height: 100%;
-  border: #ddd 1px solid;
-}
+
 /* index */
 .codes {
   display: grid;
