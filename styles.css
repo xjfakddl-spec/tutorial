@@ -1,43 +1,86 @@
 /* 기본*/
 :root {
-    --bg-main-color: #f5f5f541;
-    --bg-sub-color: rgba(0, 0, 0, 0.192);
+  --bg-main-color: #f5f5f579;
+  --bg-sub-color: rgba(0, 0, 0, 0.192);
 }
 body {
-    background-image: url(SSM00259-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0px;
+  background-image: url(SSM00259-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px;
 }
 header {
-    background-color: var(--bg-main-color);
-    text-align: center;
-    padding: 20px;
+  background-color: var(--bg-main-color);
+  text-align: center;
+  padding: 20px;
+  border: #ddd 1px solid;
 }
 main {
-    background-color: var(--bg-main-color);
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
+  background-color: var(--bg-main-color);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
+  border: #ddd 1px solid;
+}
+section {
+  background-color: var(--bg-main-color);
+  padding: 20px;
+  margin: 20px;
+  border: #ddd 1px solid;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  background-color: var(--bg-main-color);
+  padding: 8px;
+}
+th {
+  background-color: var(--bg-sub-color);
+  text-align: left;
+}
+aside {
+  position: sticky;
+  background-color: var(--bg-main-color);
+  top: 0;
+  float: left;
+  z-index: 1000;
+  gap: 10px;
+  width: 260px;
+  height: 100%;
+  border: #ddd 1px solid;
 }
 /* index */
 .codes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    background-color: var(--bg-main-color);
-    padding: 20px;
-    margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  background-color: var(--bg-main-color);
+  padding: 20px;
+  margin: 20px;
 }
 .codes a:nth-child(odd) {
-    background-color: var(--bg-sub-color);
+  background-color: var(--bg-sub-color);
 }
 .codes a:nth-child(even) {
-    background-color: var(--bg-main-color);
+  background-color: var(--bg-main-color);
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--bg-main-color);
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
 }
 
-
-
 /* 여기서부턴 html-code*/
-
